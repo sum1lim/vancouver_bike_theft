@@ -11,6 +11,6 @@ setup(
     packages=["vancouver_bike_theft"],
     include_package_data=True,
     scripts="""
-        ./scripts/
+        ./scripts/normalize
     """.split(),
 )
