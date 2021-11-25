@@ -1,0 +1,6 @@
+.DS_Store
+vancouver_bike_theft.egg-info
+__pycache__
+venv
+data
+.vscode
