@@ -1,0 +1,533 @@
+*************************** Fold #: 1 ***************************
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 30)                780       
+                                                                 
+ dense_1 (Dense)             (None, 30)                930       
+                                                                 
+ dense_2 (Dense)             (None, 30)                930       
+                                                                 
+ dense_3 (Dense)             (None, 1)                 31        
+                                                                 
+=================================================================
+Total params: 2,671
+Trainable params: 2,671
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/10000
+
+Epoch 00001: val_loss improved from inf to 165.75859, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 129729.2188 - val_loss: 165.7586 - 1s/epoch - 115ms/step
+Epoch 2/10000
+
+Epoch 00002: val_loss did not improve from 165.75859
+11/11 - 0s - loss: 9486.5234 - val_loss: 1605.4409 - 38ms/epoch - 3ms/step
+Epoch 3/10000
+
+Epoch 00003: val_loss did not improve from 165.75859
+11/11 - 0s - loss: 2659.5747 - val_loss: 287.3986 - 38ms/epoch - 3ms/step
+Epoch 4/10000
+
+Epoch 00004: val_loss improved from 165.75859 to 156.04218, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 618.1147 - val_loss: 156.0422 - 578ms/epoch - 53ms/step
+Epoch 5/10000
+
+Epoch 00005: val_loss improved from 156.04218 to 100.67987, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 206.2171 - val_loss: 100.6799 - 581ms/epoch - 53ms/step
+Epoch 6/10000
+
+Epoch 00006: val_loss improved from 100.67987 to 55.75680, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 71.9002 - val_loss: 55.7568 - 581ms/epoch - 53ms/step
+Epoch 7/10000
+
+Epoch 00007: val_loss improved from 55.75680 to 19.20258, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 24.8260 - val_loss: 19.2026 - 584ms/epoch - 53ms/step
+Epoch 8/10000
+
+Epoch 00008: val_loss improved from 19.20258 to 3.16081, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 7.8206 - val_loss: 3.1608 - 582ms/epoch - 53ms/step
+Epoch 9/10000
+
+Epoch 00009: val_loss improved from 3.16081 to 1.20480, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 2.7028 - val_loss: 1.2048 - 717ms/epoch - 65ms/step
+Epoch 10/10000
+
+Epoch 00010: val_loss did not improve from 1.20480
+11/11 - 0s - loss: 1.6514 - val_loss: 1.5648 - 39ms/epoch - 4ms/step
+Epoch 11/10000
+
+Epoch 00011: val_loss improved from 1.20480 to 1.11741, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 1.2570 - val_loss: 1.1174 - 577ms/epoch - 52ms/step
+Epoch 12/10000
+
+Epoch 00012: val_loss improved from 1.11741 to 1.01341, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 1.0119 - val_loss: 1.0134 - 576ms/epoch - 52ms/step
+Epoch 13/10000
+
+Epoch 00013: val_loss improved from 1.01341 to 1.00026, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.9670 - val_loss: 1.0003 - 579ms/epoch - 53ms/step
+Epoch 14/10000
+
+Epoch 00014: val_loss improved from 1.00026 to 0.96162, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.9466 - val_loss: 0.9616 - 577ms/epoch - 52ms/step
+Epoch 15/10000
+
+Epoch 00015: val_loss improved from 0.96162 to 0.95559, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.9191 - val_loss: 0.9556 - 579ms/epoch - 53ms/step
+Epoch 16/10000
+
+Epoch 00016: val_loss improved from 0.95559 to 0.93217, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.9040 - val_loss: 0.9322 - 725ms/epoch - 66ms/step
+Epoch 17/10000
+
+Epoch 00017: val_loss improved from 0.93217 to 0.91655, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8888 - val_loss: 0.9165 - 575ms/epoch - 52ms/step
+Epoch 18/10000
+
+Epoch 00018: val_loss improved from 0.91655 to 0.90046, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8743 - val_loss: 0.9005 - 575ms/epoch - 52ms/step
+Epoch 19/10000
+
+Epoch 00019: val_loss improved from 0.90046 to 0.88530, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8602 - val_loss: 0.8853 - 578ms/epoch - 53ms/step
+Epoch 20/10000
+
+Epoch 00020: val_loss improved from 0.88530 to 0.86927, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8450 - val_loss: 0.8693 - 576ms/epoch - 52ms/step
+Epoch 21/10000
+
+Epoch 00021: val_loss improved from 0.86927 to 0.85376, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8302 - val_loss: 0.8538 - 575ms/epoch - 52ms/step
+Epoch 22/10000
+
+Epoch 00022: val_loss improved from 0.85376 to 0.83856, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8163 - val_loss: 0.8386 - 594ms/epoch - 54ms/step
+Epoch 23/10000
+
+Epoch 00023: val_loss improved from 0.83856 to 0.82564, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.8001 - val_loss: 0.8256 - 586ms/epoch - 53ms/step
+Epoch 24/10000
+
+Epoch 00024: val_loss improved from 0.82564 to 0.80653, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.7849 - val_loss: 0.8065 - 785ms/epoch - 71ms/step
+Epoch 25/10000
+
+Epoch 00025: val_loss improved from 0.80653 to 0.79073, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.7703 - val_loss: 0.7907 - 607ms/epoch - 55ms/step
+Epoch 26/10000
+
+Epoch 00026: val_loss improved from 0.79073 to 0.78113, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.7556 - val_loss: 0.7811 - 593ms/epoch - 54ms/step
+Epoch 27/10000
+
+Epoch 00027: val_loss improved from 0.78113 to 0.76097, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.7421 - val_loss: 0.7610 - 592ms/epoch - 54ms/step
+Epoch 28/10000
+
+Epoch 00028: val_loss improved from 0.76097 to 0.74862, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.7256 - val_loss: 0.7486 - 612ms/epoch - 56ms/step
+Epoch 29/10000
+
+Epoch 00029: val_loss improved from 0.74862 to 0.73312, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.7116 - val_loss: 0.7331 - 577ms/epoch - 52ms/step
+Epoch 30/10000
+
+Epoch 00030: val_loss improved from 0.73312 to 0.71318, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6964 - val_loss: 0.7132 - 631ms/epoch - 57ms/step
+Epoch 31/10000
+
+Epoch 00031: val_loss improved from 0.71318 to 0.69794, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6820 - val_loss: 0.6979 - 811ms/epoch - 74ms/step
+Epoch 32/10000
+
+Epoch 00032: val_loss improved from 0.69794 to 0.68333, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6683 - val_loss: 0.6833 - 652ms/epoch - 59ms/step
+Epoch 33/10000
+
+Epoch 00033: val_loss improved from 0.68333 to 0.67115, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6540 - val_loss: 0.6711 - 581ms/epoch - 53ms/step
+Epoch 34/10000
+
+Epoch 00034: val_loss improved from 0.67115 to 0.65405, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6403 - val_loss: 0.6540 - 577ms/epoch - 52ms/step
+Epoch 35/10000
+
+Epoch 00035: val_loss improved from 0.65405 to 0.64100, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6273 - val_loss: 0.6410 - 577ms/epoch - 52ms/step
+Epoch 36/10000
+
+Epoch 00036: val_loss improved from 0.64100 to 0.62827, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6141 - val_loss: 0.6283 - 575ms/epoch - 52ms/step
+Epoch 37/10000
+
+Epoch 00037: val_loss improved from 0.62827 to 0.61442, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.6032 - val_loss: 0.6144 - 574ms/epoch - 52ms/step
+Epoch 38/10000
+
+Epoch 00038: val_loss improved from 0.61442 to 0.60329, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5920 - val_loss: 0.6033 - 731ms/epoch - 66ms/step
+Epoch 39/10000
+
+Epoch 00039: val_loss improved from 0.60329 to 0.59269, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5813 - val_loss: 0.5927 - 595ms/epoch - 54ms/step
+Epoch 40/10000
+
+Epoch 00040: val_loss improved from 0.59269 to 0.58318, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5709 - val_loss: 0.5832 - 572ms/epoch - 52ms/step
+Epoch 41/10000
+
+Epoch 00041: val_loss improved from 0.58318 to 0.57140, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5601 - val_loss: 0.5714 - 573ms/epoch - 52ms/step
+Epoch 42/10000
+
+Epoch 00042: val_loss improved from 0.57140 to 0.56094, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5509 - val_loss: 0.5609 - 576ms/epoch - 52ms/step
+Epoch 43/10000
+
+Epoch 00043: val_loss improved from 0.56094 to 0.55225, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5420 - val_loss: 0.5523 - 573ms/epoch - 52ms/step
+Epoch 44/10000
+
+Epoch 00044: val_loss improved from 0.55225 to 0.54338, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5339 - val_loss: 0.5434 - 575ms/epoch - 52ms/step
+Epoch 45/10000
+
+Epoch 00045: val_loss improved from 0.54338 to 0.53261, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5249 - val_loss: 0.5326 - 733ms/epoch - 67ms/step
+Epoch 46/10000
+
+Epoch 00046: val_loss improved from 0.53261 to 0.52179, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5144 - val_loss: 0.5218 - 577ms/epoch - 52ms/step
+Epoch 47/10000
+
+Epoch 00047: val_loss improved from 0.52179 to 0.51288, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.5065 - val_loss: 0.5129 - 575ms/epoch - 52ms/step
+Epoch 48/10000
+
+Epoch 00048: val_loss improved from 0.51288 to 0.50570, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4965 - val_loss: 0.5057 - 591ms/epoch - 54ms/step
+Epoch 49/10000
+
+Epoch 00049: val_loss improved from 0.50570 to 0.49448, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4875 - val_loss: 0.4945 - 573ms/epoch - 52ms/step
+Epoch 50/10000
+
+Epoch 00050: val_loss improved from 0.49448 to 0.48834, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4791 - val_loss: 0.4883 - 575ms/epoch - 52ms/step
+Epoch 51/10000
+
+Epoch 00051: val_loss improved from 0.48834 to 0.47937, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4722 - val_loss: 0.4794 - 573ms/epoch - 52ms/step
+Epoch 52/10000
+
+Epoch 00052: val_loss improved from 0.47937 to 0.47022, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4628 - val_loss: 0.4702 - 573ms/epoch - 52ms/step
+Epoch 53/10000
+
+Epoch 00053: val_loss improved from 0.47022 to 0.45923, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4548 - val_loss: 0.4592 - 745ms/epoch - 68ms/step
+Epoch 54/10000
+
+Epoch 00054: val_loss improved from 0.45923 to 0.45062, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4467 - val_loss: 0.4506 - 574ms/epoch - 52ms/step
+Epoch 55/10000
+
+Epoch 00055: val_loss improved from 0.45062 to 0.44330, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4395 - val_loss: 0.4433 - 573ms/epoch - 52ms/step
+Epoch 56/10000
+
+Epoch 00056: val_loss improved from 0.44330 to 0.43650, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4319 - val_loss: 0.4365 - 575ms/epoch - 52ms/step
+Epoch 57/10000
+
+Epoch 00057: val_loss improved from 0.43650 to 0.42689, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4262 - val_loss: 0.4269 - 589ms/epoch - 54ms/step
+Epoch 58/10000
+
+Epoch 00058: val_loss improved from 0.42689 to 0.41914, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4171 - val_loss: 0.4191 - 700ms/epoch - 64ms/step
+Epoch 59/10000
+
+Epoch 00059: val_loss improved from 0.41914 to 0.41269, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4112 - val_loss: 0.4127 - 664ms/epoch - 60ms/step
+Epoch 60/10000
+
+Epoch 00060: val_loss improved from 0.41269 to 0.40694, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.4041 - val_loss: 0.4069 - 740ms/epoch - 67ms/step
+Epoch 61/10000
+
+Epoch 00061: val_loss improved from 0.40694 to 0.39774, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3974 - val_loss: 0.3977 - 577ms/epoch - 52ms/step
+Epoch 62/10000
+
+Epoch 00062: val_loss improved from 0.39774 to 0.39243, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3902 - val_loss: 0.3924 - 740ms/epoch - 67ms/step
+Epoch 63/10000
+
+Epoch 00063: val_loss improved from 0.39243 to 0.38578, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3840 - val_loss: 0.3858 - 616ms/epoch - 56ms/step
+Epoch 64/10000
+
+Epoch 00064: val_loss improved from 0.38578 to 0.37968, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3784 - val_loss: 0.3797 - 594ms/epoch - 54ms/step
+Epoch 65/10000
+
+Epoch 00065: val_loss improved from 0.37968 to 0.37127, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3723 - val_loss: 0.3713 - 634ms/epoch - 58ms/step
+Epoch 66/10000
+
+Epoch 00066: val_loss improved from 0.37127 to 0.36512, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3661 - val_loss: 0.3651 - 590ms/epoch - 54ms/step
+Epoch 67/10000
+
+Epoch 00067: val_loss improved from 0.36512 to 0.35919, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3606 - val_loss: 0.3592 - 807ms/epoch - 73ms/step
+Epoch 68/10000
+
+Epoch 00068: val_loss improved from 0.35919 to 0.35508, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3547 - val_loss: 0.3551 - 713ms/epoch - 65ms/step
+Epoch 69/10000
+
+Epoch 00069: val_loss improved from 0.35508 to 0.34892, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3498 - val_loss: 0.3489 - 661ms/epoch - 60ms/step
+Epoch 70/10000
+
+Epoch 00070: val_loss improved from 0.34892 to 0.34235, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3445 - val_loss: 0.3423 - 578ms/epoch - 53ms/step
+Epoch 71/10000
+
+Epoch 00071: val_loss improved from 0.34235 to 0.33755, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3393 - val_loss: 0.3375 - 580ms/epoch - 53ms/step
+Epoch 72/10000
+
+Epoch 00072: val_loss improved from 0.33755 to 0.33218, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3346 - val_loss: 0.3322 - 579ms/epoch - 53ms/step
+Epoch 73/10000
+
+Epoch 00073: val_loss improved from 0.33218 to 0.32698, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3302 - val_loss: 0.3270 - 579ms/epoch - 53ms/step
+Epoch 74/10000
+
+Epoch 00074: val_loss improved from 0.32698 to 0.32236, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3258 - val_loss: 0.3224 - 756ms/epoch - 69ms/step
+Epoch 75/10000
+
+Epoch 00075: val_loss improved from 0.32236 to 0.31857, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3215 - val_loss: 0.3186 - 591ms/epoch - 54ms/step
+Epoch 76/10000
+
+Epoch 00076: val_loss improved from 0.31857 to 0.31348, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3168 - val_loss: 0.3135 - 574ms/epoch - 52ms/step
+Epoch 77/10000
+
+Epoch 00077: val_loss improved from 0.31348 to 0.30874, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3126 - val_loss: 0.3087 - 595ms/epoch - 54ms/step
+Epoch 78/10000
+
+Epoch 00078: val_loss improved from 0.30874 to 0.30614, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3088 - val_loss: 0.3061 - 572ms/epoch - 52ms/step
+Epoch 79/10000
+
+Epoch 00079: val_loss improved from 0.30614 to 0.30054, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3055 - val_loss: 0.3005 - 574ms/epoch - 52ms/step
+Epoch 80/10000
+
+Epoch 00080: val_loss improved from 0.30054 to 0.29669, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.3009 - val_loss: 0.2967 - 575ms/epoch - 52ms/step
+Epoch 81/10000
+
+Epoch 00081: val_loss improved from 0.29669 to 0.29307, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2973 - val_loss: 0.2931 - 579ms/epoch - 53ms/step
+Epoch 82/10000
+
+Epoch 00082: val_loss improved from 0.29307 to 0.28965, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2939 - val_loss: 0.2896 - 770ms/epoch - 70ms/step
+Epoch 83/10000
+
+Epoch 00083: val_loss improved from 0.28965 to 0.28585, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2904 - val_loss: 0.2859 - 587ms/epoch - 53ms/step
+Epoch 84/10000
+
+Epoch 00084: val_loss improved from 0.28585 to 0.28243, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2874 - val_loss: 0.2824 - 633ms/epoch - 58ms/step
+Epoch 85/10000
+
+Epoch 00085: val_loss improved from 0.28243 to 0.27918, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2841 - val_loss: 0.2792 - 772ms/epoch - 70ms/step
+Epoch 86/10000
+
+Epoch 00086: val_loss improved from 0.27918 to 0.27645, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2814 - val_loss: 0.2764 - 713ms/epoch - 65ms/step
+Epoch 87/10000
+
+Epoch 00087: val_loss improved from 0.27645 to 0.27297, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2787 - val_loss: 0.2730 - 648ms/epoch - 59ms/step
+Epoch 88/10000
+
+Epoch 00088: val_loss improved from 0.27297 to 0.27071, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2757 - val_loss: 0.2707 - 644ms/epoch - 59ms/step
+Epoch 89/10000
+
+Epoch 00089: val_loss improved from 0.27071 to 0.26755, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2733 - val_loss: 0.2675 - 767ms/epoch - 70ms/step
+Epoch 90/10000
+
+Epoch 00090: val_loss did not improve from 0.26755
+11/11 - 0s - loss: 0.2709 - val_loss: 0.2681 - 40ms/epoch - 4ms/step
+Epoch 91/10000
+
+Epoch 00091: val_loss improved from 0.26755 to 0.26206, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2700 - val_loss: 0.2621 - 579ms/epoch - 53ms/step
+Epoch 92/10000
+
+Epoch 00092: val_loss improved from 0.26206 to 0.25992, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2653 - val_loss: 0.2599 - 596ms/epoch - 54ms/step
+Epoch 93/10000
+
+Epoch 00093: val_loss improved from 0.25992 to 0.25729, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2633 - val_loss: 0.2573 - 574ms/epoch - 52ms/step
+Epoch 94/10000
+
+Epoch 00094: val_loss improved from 0.25729 to 0.25499, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2611 - val_loss: 0.2550 - 573ms/epoch - 52ms/step
+Epoch 95/10000
+
+Epoch 00095: val_loss improved from 0.25499 to 0.25289, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2590 - val_loss: 0.2529 - 575ms/epoch - 52ms/step
+Epoch 96/10000
+
+Epoch 00096: val_loss improved from 0.25289 to 0.25071, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2568 - val_loss: 0.2507 - 575ms/epoch - 52ms/step
+Epoch 97/10000
+
+Epoch 00097: val_loss improved from 0.25071 to 0.24986, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2553 - val_loss: 0.2499 - 731ms/epoch - 66ms/step
+Epoch 98/10000
+
+Epoch 00098: val_loss improved from 0.24986 to 0.24670, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2545 - val_loss: 0.2467 - 606ms/epoch - 55ms/step
+Epoch 99/10000
+
+Epoch 00099: val_loss improved from 0.24670 to 0.24500, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2513 - val_loss: 0.2450 - 637ms/epoch - 58ms/step
+Epoch 100/10000
+
+Epoch 00100: val_loss improved from 0.24500 to 0.24313, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2499 - val_loss: 0.2431 - 609ms/epoch - 55ms/step
+Epoch 101/10000
+
+Epoch 00101: val_loss improved from 0.24313 to 0.24228, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2483 - val_loss: 0.2423 - 654ms/epoch - 59ms/step
+Epoch 102/10000
+
+Epoch 00102: val_loss improved from 0.24228 to 0.24212, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2476 - val_loss: 0.2421 - 627ms/epoch - 57ms/step
+Epoch 103/10000
+
+Epoch 00103: val_loss improved from 0.24212 to 0.24091, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2454 - val_loss: 0.2409 - 648ms/epoch - 59ms/step
+Epoch 104/10000
+
+Epoch 00104: val_loss did not improve from 0.24091
+11/11 - 0s - loss: 0.2453 - val_loss: 0.2442 - 43ms/epoch - 4ms/step
+Epoch 105/10000
+
+Epoch 00105: val_loss improved from 0.24091 to 0.23542, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2446 - val_loss: 0.2354 - 834ms/epoch - 76ms/step
+Epoch 106/10000
+
+Epoch 00106: val_loss improved from 0.23542 to 0.23413, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2417 - val_loss: 0.2341 - 701ms/epoch - 64ms/step
+Epoch 107/10000
+
+Epoch 00107: val_loss improved from 0.23413 to 0.23337, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2406 - val_loss: 0.2334 - 783ms/epoch - 71ms/step
+Epoch 108/10000
+
+Epoch 00108: val_loss improved from 0.23337 to 0.23179, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2394 - val_loss: 0.2318 - 597ms/epoch - 54ms/step
+Epoch 109/10000
+
+Epoch 00109: val_loss improved from 0.23179 to 0.23105, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2375 - val_loss: 0.2311 - 594ms/epoch - 54ms/step
+Epoch 110/10000
+
+Epoch 00110: val_loss improved from 0.23105 to 0.23023, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2363 - val_loss: 0.2302 - 591ms/epoch - 54ms/step
+Epoch 111/10000
+
+Epoch 00111: val_loss improved from 0.23023 to 0.22849, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2353 - val_loss: 0.2285 - 582ms/epoch - 53ms/step
+Epoch 112/10000
+
+Epoch 00112: val_loss did not improve from 0.22849
+11/11 - 0s - loss: 0.2343 - val_loss: 0.2288 - 39ms/epoch - 4ms/step
+Epoch 113/10000
+
+Epoch 00113: val_loss did not improve from 0.22849
+11/11 - 0s - loss: 0.2344 - val_loss: 0.2286 - 39ms/epoch - 4ms/step
+Epoch 114/10000
+
+Epoch 00114: val_loss improved from 0.22849 to 0.22611, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2324 - val_loss: 0.2261 - 573ms/epoch - 52ms/step
+Epoch 115/10000
+
+Epoch 00115: val_loss improved from 0.22611 to 0.22427, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2312 - val_loss: 0.2243 - 747ms/epoch - 68ms/step
+Epoch 116/10000
+
+Epoch 00116: val_loss improved from 0.22427 to 0.22384, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2314 - val_loss: 0.2238 - 574ms/epoch - 52ms/step
+Epoch 117/10000
+
+Epoch 00117: val_loss improved from 0.22384 to 0.22277, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2295 - val_loss: 0.2228 - 575ms/epoch - 52ms/step
+Epoch 118/10000
+
+Epoch 00118: val_loss improved from 0.22277 to 0.22207, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2293 - val_loss: 0.2221 - 573ms/epoch - 52ms/step
+Epoch 119/10000
+
+Epoch 00119: val_loss improved from 0.22207 to 0.22193, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2281 - val_loss: 0.2219 - 587ms/epoch - 53ms/step
+Epoch 120/10000
+
+Epoch 00120: val_loss improved from 0.22193 to 0.22064, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2283 - val_loss: 0.2206 - 573ms/epoch - 52ms/step
+Epoch 121/10000
+
+Epoch 00121: val_loss did not improve from 0.22064
+11/11 - 0s - loss: 0.2275 - val_loss: 0.2217 - 40ms/epoch - 4ms/step
+Epoch 122/10000
+
+Epoch 00122: val_loss did not improve from 0.22064
+11/11 - 0s - loss: 0.2280 - val_loss: 0.2270 - 39ms/epoch - 4ms/step
+Epoch 123/10000
+
+Epoch 00123: val_loss improved from 0.22064 to 0.21909, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2271 - val_loss: 0.2191 - 636ms/epoch - 58ms/step
+Epoch 124/10000
+
+Epoch 00124: val_loss improved from 0.21909 to 0.21806, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2260 - val_loss: 0.2181 - 875ms/epoch - 80ms/step
+Epoch 125/10000
+
+Epoch 00125: val_loss improved from 0.21806 to 0.21750, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2243 - val_loss: 0.2175 - 578ms/epoch - 53ms/step
+Epoch 126/10000
+
+Epoch 00126: val_loss improved from 0.21750 to 0.21668, saving model to ./results/trial_1/ckpt_1
+11/11 - 1s - loss: 0.2236 - val_loss: 0.2167 - 578ms/epoch - 53ms/step
+Epoch 127/10000
+
+Epoch 00127: val_loss did not improve from 0.21668
+11/11 - 0s - loss: 0.2232 - val_loss: 0.2174 - 40ms/epoch - 4ms/step
+Epoch 128/10000
+
+Epoch 00128: val_loss did not improve from 0.21668
+11/11 - 0s - loss: 0.2228 - val_loss: 0.2178 - 39ms/epoch - 4ms/step
+Epoch 129/10000
+
+Epoch 00129: val_loss improved from 0.21668 to 0.21527, saving model to ./results/trial_1/ckpt_1

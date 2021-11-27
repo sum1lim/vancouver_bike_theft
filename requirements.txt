@@ -6,3 +6,5 @@ pandas
 seaborn
 scikit-learn
 pyyaml
+smogn
+imblearn

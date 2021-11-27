@@ -13,5 +13,6 @@ setup(
     scripts="""
         ./scripts/normalize
         ./scripts/tr_te_split
+        ./scripts/NN_regression
     """.split(),
 )
