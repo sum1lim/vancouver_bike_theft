@@ -100,9 +100,7 @@ def process_data(
 
     dataframe = pandas.read_csv(data_file, header=0, index_col=False)
 
-    dataframe.drop(
-        columns=["id", "left", "top", "right", "bottom", "NUM_Thefts"], inplace=True
-    )
+    dataframe.drop(columns=["id", "left", "top", "right", "bottom"], inplace=True)
 
     if config_dict:
         if "NUM_Thefts" in config_dict.keys():
@@ -157,10 +155,9 @@ def process_data(
         )
         print(f" Number of samples: {dataframe.shape[0]}\n", file=sys.stdout)
 
-    dataset = dataframe.values
-    print(f"Size of dataset: {dataset.shape}", file=sys.stderr)
-    X = dataset[:, 1:].astype(float)
-    Y = dataset[:, 0]
+    print(f"Size of dataset: {dataframe.values.shape}", file=sys.stderr)
+    X = dataframe[dataframe.columns.difference(["NUM_Thefts"])].values
+    Y = dataframe["NUM_Thefts"].values
 
     if regression:
         return X, Y
