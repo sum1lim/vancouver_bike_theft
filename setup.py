@@ -12,5 +12,6 @@ setup(
     include_package_data=True,
     scripts="""
         ./scripts/normalize
+        ./scripts/tr_te_split
     """.split(),
 )

@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+import argparse
+import os
+import sys
+import pandas as pd
+from vancouver_bike_theft.utils import decompose_filepath
+from sklearn.utils import shuffle
+
+
+def tr_te_split(input, num_data):
+    df = pd.read_csv(input)
+
+    df = shuffle(df)
+    df = df.sort_values(by=["NUM_Thefts"], ascending=False)
+    df = df.head(num_data)
+
+    df = shuffle(df)
+
+    tr_df = df.head(round(num_data * 0.8))
+    te_df = df.tail(round(num_data * 0.2))
+
+    return tr_df, te_df
+
+
+def main(args):
+    if os.path.isfile(args.input) == False:
+        print("File(s) not existing", file=sys.stderr)
+        sys.exit(1)
+
+    dir_path, filename, _ = decompose_filepath(args.input)
+
+    tr_df, te_df = tr_te_split(args.input, args.num_data)
+
+    tr_output_path = f"{dir_path}/{filename}_tr.csv"
+    te_output_path = f"{dir_path}/{filename}_te.csv"
+
+    tr_df.to_csv(tr_output_path, index=False)
+    te_df.to_csv(te_output_path, index=False)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--input", type=str, help="Path of dataset to be split")
+    parser.add_argument("--num-data", type=int, help="Number of data used")
+
+    args = parser.parse_args()
+    main(args)
