@@ -4,9 +4,9 @@ configuration:
   test_data: ./data/dataset_norm_te.csv
   verbosity: 2
   epochs: 10000
-  K- fold: 10
+  K-fold: 10
   hidden_size: 30
-  smote: True 
+  smote: False
 
 features:
   - RackDist

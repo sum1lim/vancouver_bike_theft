@@ -157,7 +157,7 @@ def process_data(
 
     print(f"Size of dataset: {dataframe.values.shape}", file=sys.stderr)
     X = dataframe[dataframe.columns.difference(["NUM_Thefts"])].values
-    Y = np.sqrt(dataframe["NUM_Thefts"].values)
+    Y = dataframe["NUM_Thefts"].values
 
     if regression:
         return X, Y
