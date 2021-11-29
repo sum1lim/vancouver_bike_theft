@@ -9,17 +9,20 @@ from vancouver_bike_theft.utils import decompose_filepath
 def normalize(input, std_data):
     tr_df = pd.read_csv(std_data)
 
-    tr_df.drop(
-        columns=["id", "left", "top", "right", "bottom", "NUM_Thefts"], inplace=True
-    )
+    tr_df.drop(columns=["hblock", "streetuse", "length", "NUM_Thefts"], inplace=True)
 
     minimums = {col: tr_df[col].min() for col in tr_df.columns}
     maximums = {col: tr_df[col].max() for col in tr_df.columns}
 
     df = pd.read_csv(input)
 
+    cols = df.columns.tolist()
+    idx = cols.index("NUM_Thefts")
+    cols = ["NUM_Thefts"] + cols[:idx] + cols[idx + 1 :]
+    df = df[cols]
+
     for col in df.columns:
-        if col in ["id", "left", "top", "right", "bottom", "NUM_Thefts"]:
+        if col in ["hblock", "streetuse", "length", "NUM_Thefts"]:
             continue
         df[col] = (df[col] - minimums[col]) / (maximums[col] - minimums[col])
 

@@ -10,6 +10,9 @@ from sklearn.utils import shuffle
 def tr_te_split(input, num_data):
     df = pd.read_csv(input)
 
+    if not num_data:
+        num_data = df.shape[0]
+
     df = shuffle(df)
     df = df.sort_values(by=["NUM_Thefts"], ascending=False)
     df = df.head(num_data)
