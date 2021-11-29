@@ -100,7 +100,7 @@ def process_data(
 
     dataframe = pandas.read_csv(data_file, header=0, index_col=False)
 
-    dataframe.drop(columns=["id", "left", "top", "right", "bottom"], inplace=True)
+    dataframe.drop(columns=["hblock", "streetuse", "length"], inplace=True)
 
     if config_dict:
         if "NUM_Thefts" in config_dict.keys():
