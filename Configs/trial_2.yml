@@ -9,14 +9,13 @@ configuration:
   smote: False 
 
 features:
-  - bikeway
-  - lane
   - RackDist
   - InterDist
-  - Arterial
-  - Collector
-  - Residentia
-  - Secondary
+  - BikewayDis
+  - ParkDist
+  - StationDis
+  - BusDist
+  - SignalDist
   - Population
   - Pop_employ
   - Empl_rate
@@ -25,14 +24,20 @@ features:
   - age_median
   - area
   - Pop_densit
+  - Arterial
+  - Collector
+  - Residentia
+  - SecArteria
+  - NUM_racks
+  - NUM_parkin
+  - NUM_statio
+  - NUM_bus
+  - NUM_inters
+  - NUM_signal
+  - CompDev
   - Commercial
-  - Comprehens
-  - Historical
   - Industrial
-  - Limited_Ag
-  - Multiple_D
-  - One-Family
-  - Other
-  - Two-Family
-  - NUM_Racks
+  - MultiRes
+  - OneRes
+  - TwoRes
 ...
