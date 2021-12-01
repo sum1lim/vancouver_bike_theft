@@ -6,38 +6,38 @@ configuration:
   epochs: 10000
   K-fold: 10
   hidden_size: 30
-  smote: True 
+  smote: False 
 
 features:
-  - RackDist
-  - InterDist
-  - BikewayDis
-  - ParkDist
-  - StationDis
-  - BusDist
-  - SignalDist
-  - Population
-  - Pop_employ
-  - Empl_rate
-  - Bike_Commu
-  - age_avg
-  - age_median
-  - area
-  - Pop_densit
+  # - RackDist
+  # - InterDist
+  # - BikewayDis
+  # - ParkDist
+  # - StationDis
+  # - BusDist
+  # - SignalDist
+  # - Population
+  # - Pop_employ
+  # - Empl_rate
+  # - Bike_Commu
+  # - age_avg
+  # - age_median
+  # - area
+  # - Pop_densit
   - Arterial
   - Collector
   - Residentia
   - SecArteria
-  - NUM_racks
-  - NUM_parkin
-  - NUM_statio
-  - NUM_bus
-  - NUM_inters
-  - NUM_signal
-  - CompDev
-  - Commercial
-  - Industrial
-  - MultiRes
-  - OneRes
-  - TwoRes
+  # - NUM_racks
+  # - NUM_parkin
+  # - NUM_statio
+  # - NUM_bus
+  # - NUM_inters
+  # - NUM_signal
+  # - CompDev
+  # - Commercial
+  # - Industrial
+  # - MultiRes
+  # - OneRes
+  # - TwoRes
 ...

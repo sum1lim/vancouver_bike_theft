@@ -1,7 +1,7 @@
 --- 
 configuration:
-  train_data: ./data/dataset_tr.csv
-  test_data: ./data/dataset_te.csv
+  train_data: ./data/dataset_norm_tr.csv
+  test_data: ./data/dataset_norm_te.csv
   verbosity: 2
   epochs: 10000
   K-fold: 10
@@ -16,28 +16,28 @@ features:
   - StationDis
   - BusDist
   - SignalDist
-  - Population
-  - Pop_employ
-  - Empl_rate
-  - Bike_Commu
-  - age_avg
-  - age_median
-  - area
-  - Pop_densit
-  - Arterial
-  - Collector
-  - Residentia
-  - SecArteria
-  - NUM_racks
-  - NUM_parkin
-  - NUM_statio
-  - NUM_bus
-  - NUM_inters
-  - NUM_signal
-  - CompDev
-  - Commercial
-  - Industrial
-  - MultiRes
-  - OneRes
-  - TwoRes
+  # - Population
+  # - Pop_employ
+  # - Empl_rate
+  # - Bike_Commu
+  # - age_avg
+  # - age_median
+  # - area
+  # - Pop_densit
+  # - Arterial
+  # - Collector
+  # - Residentia
+  # - SecArteria
+  # - NUM_racks
+  # - NUM_parkin
+  # - NUM_statio
+  # - NUM_bus
+  # - NUM_inters
+  # - NUM_signal
+  # - CompDev
+  # - Commercial
+  # - Industrial
+  # - MultiRes
+  # - OneRes
+  # - TwoRes
 ...
