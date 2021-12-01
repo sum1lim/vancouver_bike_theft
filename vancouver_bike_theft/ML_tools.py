@@ -218,6 +218,8 @@ def regression_plots(Y_expert, Y_pred, abs_error, result_dir, iter):
     # pred vs expert
     pred_df = {"expert": Y_expert, "pred": Y_pred}
     plt.scatter(Y_expert, Y_pred)
+    plt.xscale("log")
+    plt.yscale("log")
     plt.title(f"Prediction VS Expert (Fold #: {iter+1})")
     plt.ylabel("Predcited Value")
     plt.xlabel("Expert Value")
