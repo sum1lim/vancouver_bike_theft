@@ -1,94 +1,46 @@
 *************************** Fold #: 1 ***************************
-<<<<<<< HEAD
-63/63 - 0s - 170ms/epoch - 3ms/step
-Mean Asolute Error: 4.223679802461527
-Pearson's r: 0.021256148311452682
+107/107 - 0s - 224ms/epoch - 2ms/step
+Mean Asolute Error: 4.4468398768854085
+Pearson's r: 0.003916979244926268
 *************************** Fold #: 2 ***************************
-63/63 - 0s - 85ms/epoch - 1ms/step
-Mean Asolute Error: 4.317855910303071
-Pearson's r: 0.020715197680143134
+107/107 - 0s - 156ms/epoch - 1ms/step
+Mean Asolute Error: 4.948323036391547
+Pearson's r: 0.008792237943475155
 *************************** Fold #: 3 ***************************
-63/63 - 0s - 90ms/epoch - 1ms/step
-Mean Asolute Error: 4.073384420454502
-Pearson's r: 0.013540356953333806
+107/107 - 0s - 158ms/epoch - 1ms/step
+Mean Asolute Error: 4.0472177599674115
+Pearson's r: 0.00308057692969495
 *************************** Fold #: 4 ***************************
-63/63 - 0s - 88ms/epoch - 1ms/step
-Mean Asolute Error: 4.402227869170951
-Pearson's r: 0.021894080489691978
+107/107 - 0s - 159ms/epoch - 1ms/step
+Mean Asolute Error: 4.959512628325304
+Pearson's r: 0.006540535188085348
 *************************** Fold #: 5 ***************************
-63/63 - 0s - 88ms/epoch - 1ms/step
-Mean Asolute Error: 4.162635290801525
-Pearson's r: 0.01941026315302564
+107/107 - 0s - 161ms/epoch - 2ms/step
+Mean Asolute Error: 4.819626325414515
+Pearson's r: 0.007327087755273088
 *************************** Fold #: 6 ***************************
-63/63 - 0s - 86ms/epoch - 1ms/step
-Mean Asolute Error: 4.259002939414233
-Pearson's r: 0.020457249182759256
+107/107 - 0s - 160ms/epoch - 1ms/step
+Mean Asolute Error: 4.770103643197474
+Pearson's r: 0.006792948937033105
 *************************** Fold #: 7 ***************************
-63/63 - 0s - 87ms/epoch - 1ms/step
-Mean Asolute Error: 4.382892607525922
-Pearson's r: 0.02173472219186962
+107/107 - 0s - 234ms/epoch - 2ms/step
+Mean Asolute Error: 4.89274495475003
+Pearson's r: 0.002439895986930507
 *************************** Fold #: 8 ***************************
-63/63 - 0s - 87ms/epoch - 1ms/step
-Mean Asolute Error: 4.302264833338558
-Pearson's r: 0.02259844944217673
+107/107 - 0s - 200ms/epoch - 2ms/step
+Mean Asolute Error: 5.074449870274682
+Pearson's r: 0.0011052597355305288
 *************************** Fold #: 9 ***************************
-63/63 - 0s - 90ms/epoch - 1ms/step
-Mean Asolute Error: 4.27803397449106
-Pearson's r: 0.0211859099555549
+107/107 - 0s - 167ms/epoch - 2ms/step
+Mean Asolute Error: 4.538172068897069
+Pearson's r: 0.0015570085983681549
 *************************** Fold #: 10 ***************************
-63/63 - 0s - 88ms/epoch - 1ms/step
-Mean Asolute Error: 4.365844520710409
-Pearson's r: 0.022202321373892053
+107/107 - 0s - 180ms/epoch - 2ms/step
+Mean Asolute Error: 4.92144953204128
+Pearson's r: 0.009511324959511909
 
-Average MAE: 4.2767822168671765
-Standard Deviation (MAE): 0.10263324836177319
+Average MAE: 4.7418439696144725
+Standard Deviation (MAE): 0.3115433149031925
 
-Average Pearson's r: 0.020499469873389978
-Standard Deviation (Pearson's r): 0.0026137226061371845
-=======
-107/107 - 0s
-Mean Asolute Error: 5.760393379585219
-Pearson's r: 0.0042930053102118865
-*************************** Fold #: 2 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.880970987961907
-Pearson's r: -0.007687962194850609
-*************************** Fold #: 3 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.938746907492689
-Pearson's r: -0.005512502652343336
-*************************** Fold #: 4 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.612821319780024
-Pearson's r: -0.0038487032210767274
-*************************** Fold #: 5 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.307999070885715
-Pearson's r: -0.00035989357144400064
-*************************** Fold #: 6 ***************************
-107/107 - 0s
-Mean Asolute Error: 4.960370487481953
-Pearson's r: -0.002251803220576257
-*************************** Fold #: 7 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.753874634707389
-Pearson's r: -0.006566620444377388
-*************************** Fold #: 8 ***************************
-107/107 - 0s
-Mean Asolute Error: 4.88136235843067
-Pearson's r: -0.0009101089805530118
-*************************** Fold #: 9 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.2881105920591684
-Pearson's r: -0.006323523425588816
-*************************** Fold #: 10 ***************************
-107/107 - 0s
-Mean Asolute Error: 5.336063699215405
-Pearson's r: -0.003786019169478419
-
-Average MAE: 5.472071343760014
-Standard Deviation (MAE): 0.37377540309448687
-
-Average Pearson's r: -0.003295413157007668
-Standard Deviation (Pearson's r): 0.0036148953225166856
->>>>>>> aa0fd57eec8895b4887cb234ffe5477406c6e35d
+Average Pearson's r: 0.005106385527882901
+Standard Deviation (Pearson's r): 0.003056098413881526

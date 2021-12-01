@@ -223,7 +223,10 @@ def regression_plots(Y_expert, Y_pred, abs_error, result_dir, iter):
     plt.title(f"Prediction VS Expert (Fold #: {iter+1})")
     plt.ylabel("Predcited Value")
     plt.xlabel("Expert Value")
-    sns.kdeplot(data=pred_df, x="expert", y="pred", color="red")
+    try:
+        sns.kdeplot(data=pred_df, x="expert", y="pred", color="red")
+    except ValueError:
+        None
     xpoints = ypoints = plt.xlim(0, maximum_val + maximum_val / 10)
     plt.plot(
         xpoints, ypoints, linestyle="--", color="k", lw=3, scalex=False, scaley=False
@@ -238,6 +241,9 @@ def regression_plots(Y_expert, Y_pred, abs_error, result_dir, iter):
     plt.ylabel("Absolute Error")
     plt.xlabel("Expert Value")
     err_df = {"expert": Y_expert, "error": abs_error}
-    sns.kdeplot(data=err_df, x="expert", y="error", color="red")
+    try:
+        sns.kdeplot(data=err_df, x="expert", y="error", color="red")
+    except ValueError:
+        None
     plt.savefig(f"{result_dir}/abs_errs_{iter+1}.png")
     plt.clf()
