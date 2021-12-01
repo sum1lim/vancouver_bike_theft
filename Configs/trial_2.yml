@@ -1,0 +1,38 @@
+--- 
+configuration:
+  train_data: ./data/dataset_norm_tr.csv
+  test_data: ./data/dataset_norm_te.csv
+  verbosity: 2
+  epochs: 10000
+  K-fold: 10
+  hidden_size: 30
+  smote: False 
+
+features:
+  - bikeway
+  - lane
+  - RackDist
+  - InterDist
+  - Arterial
+  - Collector
+  - Residentia
+  - Secondary
+  - Population
+  - Pop_employ
+  - Empl_rate
+  - Bike_Commu
+  - age_avg
+  - age_median
+  - area
+  - Pop_densit
+  - Commercial
+  - Comprehens
+  - Historical
+  - Industrial
+  - Limited_Ag
+  - Multiple_D
+  - One-Family
+  - Other
+  - Two-Family
+  - NUM_Racks
+...
