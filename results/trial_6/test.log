@@ -1,46 +1,46 @@
 *************************** Fold #: 1 ***************************
-32/32 - 0s - 184ms/epoch - 6ms/step
-Mean Asolute Error: 11.061994603395462
-Pearson's r: -0.001997432317313274
+32/32 - 0s
+Mean Asolute Error: 11.062172755479812
+Pearson's r: 0.02315822973491368
 *************************** Fold #: 2 ***************************
-32/32 - 0s - 108ms/epoch - 3ms/step
-Mean Asolute Error: 12.02816375350952
-Pearson's r: 0.016323548203547
+32/32 - 0s
+Mean Asolute Error: 11.816146887302398
+Pearson's r: 0.033389023256914535
 *************************** Fold #: 3 ***************************
-32/32 - 0s - 109ms/epoch - 3ms/step
-Mean Asolute Error: 11.514191117405892
-Pearson's r: -0.027829719897459925
+32/32 - 0s
+Mean Asolute Error: 11.309123022794724
+Pearson's r: 0.04083065109917611
 *************************** Fold #: 4 ***************************
-32/32 - 0s - 103ms/epoch - 3ms/step
-Mean Asolute Error: 11.054851434707642
-Pearson's r: 0.1003122497177003
+32/32 - 0s
+Mean Asolute Error: 10.627726583003998
+Pearson's r: 0.019624850008134465
 *************************** Fold #: 5 ***************************
-32/32 - 0s - 104ms/epoch - 3ms/step
-Mean Asolute Error: 12.243948992729187
-Pearson's r: 0.03926239639561505
+32/32 - 0s
+Mean Asolute Error: 11.051241233825683
+Pearson's r: 0.010235461728042208
 *************************** Fold #: 6 ***************************
-32/32 - 0s - 106ms/epoch - 3ms/step
-Mean Asolute Error: 11.12269118642807
-Pearson's r: -0.0022574026130370737
+32/32 - 0s
+Mean Asolute Error: 10.7906868391037
+Pearson's r: 0.026936923670588597
 *************************** Fold #: 7 ***************************
-32/32 - 0s - 104ms/epoch - 3ms/step
-Mean Asolute Error: 10.891219356060027
-Pearson's r: 0.018617253047881845
+32/32 - 0s
+Mean Asolute Error: 10.713719004154205
+Pearson's r: 0.02829085051187874
 *************************** Fold #: 8 ***************************
-32/32 - 0s - 104ms/epoch - 3ms/step
-Mean Asolute Error: 10.936793560504913
-Pearson's r: 0.03648715431678159
+32/32 - 0s
+Mean Asolute Error: 12.356516281127929
+Pearson's r: 0.02954677635964571
 *************************** Fold #: 9 ***************************
-32/32 - 0s - 104ms/epoch - 3ms/step
-Mean Asolute Error: 11.049670605182648
-Pearson's r: 0.02707445447656362
+32/32 - 0s
+Mean Asolute Error: 12.195389217615128
+Pearson's r: 0.031294710289917746
 *************************** Fold #: 10 ***************************
-32/32 - 0s - 104ms/epoch - 3ms/step
-Mean Asolute Error: 11.551254194498062
-Pearson's r: 0.04797910384835379
+32/32 - 0s
+Mean Asolute Error: 11.549489034414291
+Pearson's r: 0.026999708679549542
 
-Average MAE: 11.345477880442141
-Standard Deviation (MAE): 0.4736916980767187
+Average MAE: 11.347221085882186
+Standard Deviation (MAE): 0.6144469403036782
 
-Average Pearson's r: 0.025397160517863292
-Standard Deviation (Pearson's r): 0.034827986449080243
+Average Pearson's r: 0.02703071853387613
+Standard Deviation (Pearson's r): 0.008225298045380396
