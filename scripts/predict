@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+import argparse
+import sys
+import tensorflow as tf
+
+from statistics import stdev
+from vancouver_bike_theft.ML_tools import process_data
+from vancouver_bike_theft.utils import decompose_filepath
+from tensorflow.keras.models import load_model
+from scipy.stats import pearsonr
+
+tf.get_logger().setLevel("ERROR")
+
+
+def main(args):
+    # Parse configuration
+    input_dir, input_filename, _ = decompose_filepath(args.input)
+
+    # Modify test dataset
+    X, Y = process_data(args.input)
+    Y.sort(axis=0)
+
+    # Call checkpoint
+    trained_model = load_model(args.model)
+
+    # Predict the test dataset
+    y_pred = trained_model.predict(X).flatten()
+
+    absolute_errors = abs(Y - y_pred)
+    mean_absolute_error = sum(abs(Y - y_pred)) / len(Y)
+    corr_coefficient = pearsonr(Y, y_pred)[0]
+
+    print(f"Mean Asolute Error: {mean_absolute_error}", file=sys.stdout)
+    print(f"Pearson's r: {corr_coefficient}", file=sys.stdout)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--input",
+        type=str,
+        help="Dataset to be predicted",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        help="Model used for prediction",
+    )
+
+    args = parser.parse_args()
+    main(args)
